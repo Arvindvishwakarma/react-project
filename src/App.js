@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-bootstrap';
-
+import Header from './Header';
 function App() {
   return (
     <div className="App">
-      <h1>React E-Commerce Project</h1>
+      <Header />
     </div>
   );
 }
